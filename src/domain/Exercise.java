@@ -4,7 +4,15 @@ import java.math.BigInteger;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
+/**
+ * The class provides MD5 hashing functionality
+ */
 public class Exercise {
+    /**
+     * Performs hashing of text by MD5 algorithm
+     * @param text Input text
+     * @return Returns hashed text
+     */
     public static String Calculate(String text){
         MessageDigest messageDigest;
         byte[] digest = new byte[0];
