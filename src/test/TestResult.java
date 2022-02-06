@@ -2,11 +2,12 @@ package test;
 
 import domain.Exercise;
 
+/**
+ * The class provides functionality for testing the hashing algorithm
+ */
 public class TestResult {
-
     public static void main(String[] args) {
-
-        int R=10;
-        System.out.println("Area of a circle for R="+R+"m is "+Exercise.Calculate(R)+"m"+'\u00B2');
+        String text = "TEXT";
+        System.out.println("Text " + text + " is hashed by MD5 algorithm: " + Exercise.Calculate(text));
     }
 }
