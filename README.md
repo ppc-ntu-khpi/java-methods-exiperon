@@ -33,10 +33,11 @@ H (X, Y, Z) X XOR Y XOR Z
 
 ## Приклад:
 Вхід: це стаття про алгоритм криптографії
+
 Висновок: e4d909c290dfb1ca068ffaddd22cbb0
 
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/a/ab/MD5.png)
-Схема алгоритму роботи MD5. F – нелінійна функція. Mi означає 32-бітний блок вхідного повідомлення, а Ki - 32-бітну константу. <<<s означає циклічний зсув вліво на s біт. {\displaystyle \boxplus }\boxplus позначає додавання за модулем 232. F залежить від раунду, Ki та s змінюються кожну операцію.
+Схема алгоритму роботи MD5. F – нелінійна функція. Mi означає 32-бітний блок вхідного повідомлення, а Ki - 32-бітну константу. <<<s означає циклічний зсув вліво на s біт. F залежить від раунду, Ki та s змінюються кожну операцію.
 
 [![Run on Repl.it](https://repl.it/badge/github/ppc-ntu-khpi/identifiers-types-starter)](https://repl.it/github/ppc-ntu-khpi/identifiers-types-starter) [![Gitter](https://badges.gitter.im/PPC-SE-2020/OOP.svg)](https://gitter.im/PPC-SE-2020/OOP?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
